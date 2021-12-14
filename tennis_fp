@@ -24,11 +24,7 @@
 
 ### Descrição
 
-'Tennis', da consola Atari 2600 é um jogo que replica, tal como o nome indica, uma partida de ténis. 
-
-*---É um jogo de puzzle em que o objetivo do jogo é empurrar caixotes para um sítio indicado. 
-Para empurrar o caixote é preciso ir ao outro lado empurrá-lo. 
-Ou seja, se ele ficar junto à parede, a pessoa precisa de reiniciar o jogo. Estamos a utilizar os níveis do XSokoban.---*
+'Tennis', da consola Atari 2600 é um jogo que replica, tal como o nome indica, uma partida de ténis.
 
 ### UI
 
@@ -45,4 +41,4 @@ Ou seja, se ele ficar junto à parede, a pessoa precisa de reiniciar o jogo. Est
 1. ler teclas e mover as peças
 2. verificar se jogador chegou ao fim do nível
 
-- Atualizado a última vez em 07/12/2021
+- Atualizado a última vez em 14/12/2021
