@@ -1,17 +1,15 @@
-# Projeto XXXX
+# Projeto FP
 ## FP/L.EIC, 2021/22
-## Fulano de Tal (up2021xxxxx)
-## 1LEICXX
+## João Miguel de Castro Figueiredo (up202108829)
+## 1L.EIC08
 
 ### Objetivo
 
-1. Criar um clone do clássico Sokoban em Pygame...
-
-2. Em alternativa... do clássico x em Pygame.
+1. Criar um clone do jogo clássico Tennis (Atari 2600) em Pygame.
 
 ### Repositório de código
 
-1) Link para o repositório do GitHub: https://github.com/@author/xxx
+1) Link para o repositório do GitHub: https://github.com/@joaofeup/tennis_fp
 
 2) Adicionar, como colaborador com permissão de leitura (*role read*):
 
@@ -26,9 +24,7 @@
 
 ### Descrição
 
-*---É um jogo de puzzle em que o objetivo do jogo é empurrar caixotes para um sítio indicado. 
-Para empurrar o caixote é preciso ir ao outro lado empurrá-lo. 
-Ou seja, se ele ficar junto à parede, a pessoa precisa de reiniciar o jogo. Estamos a utilizar os níveis do XSokoban.---*
+'Tennis', da consola Atari 2600, é um jogo que replica, tal como o nome indica, uma partida de ténis.
 
 ### UI
 
@@ -45,4 +41,4 @@ Ou seja, se ele ficar junto à parede, a pessoa precisa de reiniciar o jogo. Est
 1. ler teclas e mover as peças
 2. verificar se jogador chegou ao fim do nível
 
-- Atualizado a última vez em 15/12/2021
+- Atualizado a última vez em 14/12/2021
