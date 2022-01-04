@@ -9,18 +9,70 @@
 
 ### Repositório de código
 
-1) Link para o repositório do GitHub: https://github.com/@joaofeup/tennis_fp
+1) Link para o repositório do GitHub: https://github.com/joaofeup/PROJETO-FP-TENNIS
 
-2) Adicionar, como colaborador com permissão de leitura (*role read*):
+#### Código à data:
 
-- https://github.com/AfonsoSalgadoSousa
-- https://github.com/jlopes60
-- https://github.com/nmacedo
-- https://github.com/rpmcruz
-- https://github.com/eSoares
-- https://github.com/pbv
-- https://github.com/imdcode
-- https://github.com/acoelho-fe-up-pt
+import pygame
+
+screen=pygame.display.set_mode((1200,800))
+pygame.display.set_caption("Tennis")
+fundo=pygame.image.load("fundo.png")
+blue=pygame.image.load("blue.png")
+red=pygame.image.load("red.png")
+vel=5
+xr=350
+yr=150
+xb=575
+yb=600
+
+run = True
+    
+while run:
+    for event in pygame.event.get():
+       
+        if event.type == pygame.QUIT:
+            run = False
+        
+        
+    keys= pygame.key.get_pressed()
+
+    if keys[pygame.K_LEFT]:
+        xr -= vel
+        
+
+    if keys[pygame.K_RIGHT]:
+        xr += vel
+        
+
+    if keys[pygame.K_UP]:
+        yr -= vel
+
+    if keys[pygame.K_DOWN]:
+        yr += vel
+        
+    if keys[pygame.K_a]:
+        xb -= vel
+
+    if keys[pygame.K_d]:
+        xb += vel
+        #pygame.transform.split(red,True,False)
+
+    if keys[pygame.K_w]:
+        yb -= vel
+
+    if keys[pygame.K_s]:
+        yb += vel
+
+    screen.blit(fundo,(0,0))
+    screen.blit(blue,(xb,yb))
+    screen.blit(red,(xr,yr))
+    pygame.display.flip()
+    pygame.display.update() 
+
+
+        
+pygame.quit()
 
 ### Descrição
 
@@ -36,9 +88,11 @@
 
 ### Tarefas
 
-1. carregar os níveis
-1. desenhar a matriz do nível
-1. ler teclas e mover as peças
-2. verificar se jogador chegou ao fim do nível
+Fazer o jogo para 2 jogadores (um joga no WASD  e outro nas setas).
+Fazer com que cada jogador se posicione sempre com a raquete para o lado da bola.
+(Movimento das pernas e da raquete)
+Adicionar efeitos sonoros à bola a bater no chão, na raquete e quando alguém marca ponto.
+Apontar o resultado (jogo normal, sem sets, com  apontuação regulamentada de xadrez (15-30-40-vitoria, vantagem por dois)
+
 
 - Atualizado a última vez em 14/12/2021
