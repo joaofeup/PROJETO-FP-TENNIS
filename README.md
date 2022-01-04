@@ -25,6 +25,8 @@ blue=pygame.image.load("blue.png")
 
 red=pygame.image.load("red.png")
 
+
+
 vel=5
 
 xr=350
@@ -34,6 +36,8 @@ yr=150
 xb=575
 
 yb=600
+
+
 
 run = True
     
