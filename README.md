@@ -99,4 +99,4 @@ pygame.quit()
 - Apontar o resultado (jogo normal, sem sets, com  apontuação regulamentada de xadrez (15-30-40-vitoria, vantagem por dois)
 
 
-                                                                                      Atualizado a última vez em 14/12/2021
+                                                                                      Atualizado a última vez em 04/01/2022
