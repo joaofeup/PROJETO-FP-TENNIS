@@ -88,15 +88,15 @@ pygame.quit()
 
 ### Tarefas
 
--Fazer o jogo para 2 jogadores (um joga no WASD  e outro nas setas).
+- Fazer o jogo para 2 jogadores (um joga no WASD  e outro nas setas).
 
--Fazer com que cada jogador se posicione sempre com a raquete para o lado da bola.
+- Fazer com que cada jogador se posicione sempre com a raquete para o lado da bola.
 
--(Movimento das pernas e da raquete)
+- (Movimento das pernas e da raquete)
 
--Adicionar efeitos sonoros à bola a bater no chão, na raquete e quando alguém marca ponto.
+- Adicionar efeitos sonoros à bola a bater no chão, na raquete e quando alguém marca ponto.
 
--Apontar o resultado (jogo normal, sem sets, com  apontuação regulamentada de xadrez (15-30-40-vitoria, vantagem por dois)
+- Apontar o resultado (jogo normal, sem sets, com  apontuação regulamentada de xadrez (15-30-40-vitoria, vantagem por dois)
 
 
-- Atualizado a última vez em 14/12/2021
+                                                                                      Atualizado a última vez em 14/12/2021
