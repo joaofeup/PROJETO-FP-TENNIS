@@ -109,7 +109,7 @@ pygame.quit()
 
 - Adicionar efeitos sonoros à bola a bater no chão, na raquete e quando alguém marca ponto.
 
-- Apontar o resultado (jogo normal, sem sets, com  apontuação regulamentada de xadrez (15-30-40-vitoria, vantagem por dois)
+- Apontar o resultado (jogo normal, sem sets, com  a pontuação regulamentada de ténis (15-30-40-vitoria, vantagem por dois)
 
 
                                                                                       Atualizado a última vez em 04/01/2022
