@@ -13,79 +13,79 @@
 
 #### Código à data:
 
-import pygame
+    import pygame
 
-screen=pygame.display.set_mode((1200,800))
+    screen=pygame.display.set_mode((1200,800))
 
-pygame.display.set_caption("Tennis")
+    pygame.display.set_caption("Tennis")
 
-fundo=pygame.image.load("fundo.png")
+    fundo=pygame.image.load("fundo.png")
 
-blue=pygame.image.load("blue.png")
+    blue=pygame.image.load("blue.png")
 
-red=pygame.image.load("red.png")
-
-
-
-vel=5
-
-xr=350
-
-yr=150
-
-xb=575
-
-yb=600
+    red=pygame.image.load("red.png")
 
 
 
-run = True
-    
-while run:
-    for event in pygame.event.get():
-       
-        if event.type == pygame.QUIT:
-            run = False
-        
-        
-    keys= pygame.key.get_pressed()
+    vel=5
 
-    if keys[pygame.K_LEFT]:
-        xr -= vel
-        
+    xr=350
 
-    if keys[pygame.K_RIGHT]:
-        xr += vel
-        
+    yr=150
 
-    if keys[pygame.K_UP]:
-        yr -= vel
+    xb=575
 
-    if keys[pygame.K_DOWN]:
-        yr += vel
-        
-    if keys[pygame.K_a]:
-        xb -= vel
-
-    if keys[pygame.K_d]:
-        xb += vel
-        #pygame.transform.split(red,True,False)
-
-    if keys[pygame.K_w]:
-        yb -= vel
-
-    if keys[pygame.K_s]:
-        yb += vel
-
-    screen.blit(fundo,(0,0))
-    screen.blit(blue,(xb,yb))
-    screen.blit(red,(xr,yr))
-    pygame.display.flip()
-    pygame.display.update() 
+    yb=600
 
 
-        
-pygame.quit()
+
+    run = True
+
+    while run:
+        for event in pygame.event.get():
+
+            if event.type == pygame.QUIT:
+                run = False
+
+
+        keys= pygame.key.get_pressed()
+
+        if keys[pygame.K_LEFT]:
+            xr -= vel
+
+
+        if keys[pygame.K_RIGHT]:
+            xr += vel
+
+
+        if keys[pygame.K_UP]:
+            yr -= vel
+
+        if keys[pygame.K_DOWN]:
+            yr += vel
+
+        if keys[pygame.K_a]:
+            xb -= vel
+
+        if keys[pygame.K_d]:
+            xb += vel
+            #pygame.transform.split(red,True,False)
+
+        if keys[pygame.K_w]:
+            yb -= vel
+
+        if keys[pygame.K_s]:
+            yb += vel
+
+        screen.blit(fundo,(0,0))
+        screen.blit(blue,(xb,yb))
+        screen.blit(red,(xr,yr))
+        pygame.display.flip()
+        pygame.display.update() 
+
+
+
+    pygame.quit()
 
 ### Descrição
 
