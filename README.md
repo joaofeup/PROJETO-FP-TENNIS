@@ -16,25 +16,14 @@
     import pygame
 
     screen=pygame.display.set_mode((1200,800))
-
     pygame.display.set_caption("Tennis")
-
     fundo=pygame.image.load("fundo.png")
-
     blue=pygame.image.load("blue.png")
-
     red=pygame.image.load("red.png")
-
-
-
     vel=5
-
     xr=350
-
     yr=150
-
     xb=575
-
     yb=600
 
 
@@ -51,31 +40,31 @@
         keys= pygame.key.get_pressed()
 
         if keys[pygame.K_LEFT]:
-            xr -= vel
+            xb -= vel
 
 
         if keys[pygame.K_RIGHT]:
-            xr += vel
+            xb += vel
 
 
         if keys[pygame.K_UP]:
-            yr -= vel
-
-        if keys[pygame.K_DOWN]:
-            yr += vel
-
-        if keys[pygame.K_a]:
-            xb -= vel
-
-        if keys[pygame.K_d]:
-            xb += vel
-            #pygame.transform.split(red,True,False)
-
-        if keys[pygame.K_w]:
             yb -= vel
 
-        if keys[pygame.K_s]:
+        if keys[pygame.K_DOWN]:
             yb += vel
+
+        if keys[pygame.K_a]:
+            xr -= vel
+
+        if keys[pygame.K_d]:
+            xr += vel
+
+
+        if keys[pygame.K_w]:
+            yr -= vel
+
+        if keys[pygame.K_s]:
+            yrn += vel
 
         screen.blit(fundo,(0,0))
         screen.blit(blue,(xb,yb))
@@ -86,6 +75,8 @@
 
 
     pygame.quit()
+
+
 
 ### Descrição
 
